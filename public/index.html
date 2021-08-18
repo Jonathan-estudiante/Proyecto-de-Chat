@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Chat SOCKET.IO</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" </head>
+
+<body>
+    <h1>Chat Grupo Desarrollo de Software</h1>
+    <div id="wrapper">
+        <div id="menu">
+            <p class="welcome">Welcome, <b></b></p>
+            <input type="text" id="username" placeholder="Username">
+            <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+            <div style="clear:both"></div>
+        </div>
+        <div id="output"></div>
+        <div id="actions"></div>
+        <input type="text" id="message" size="63" />
+        <button id="send">Send</button>
+
+    </div>
+
+    <script src="socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="chat.js" charset="utf-8"></script>
+</body>
+
+</html>
